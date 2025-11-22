@@ -2,7 +2,7 @@
 
 A modern, feature-rich meeting room booking application built with Next.js , integrating with Microsoft 365 for seamless calendar management and automatic Teams meeting creation.
 
-![Next.js](https://img.shields.io/badge/Next.js-14-black?style=flat-square&logo=next.js)
+![Next.js](https://img.shields.io/badge/Next.js-16-black?style=flat-square&logo=next.js)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?style=flat-square&logo=typescript)
 ![Microsoft Graph](https://img.shields.io/badge/Microsoft-Graph%20API-0078D4?style=flat-square&logo=microsoft)
 
