@@ -1,0 +1,27 @@
+version: '3.8'
+
+services:
+  bookingroom-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: bookingroom-app
+    ports:
+      - "3000:3000"
+    env_file:
+      - .env.local  # Use the same .env.local as development
+    environment:
+      - NODE_ENV=production
+    restart: unless-stopped
+    networks:
+      - bookingroom-network
+    healthcheck:
+      test: ["CMD", "wget", "--no-verbose", "--tries=1", "--spider", "http://localhost:3000/"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+
+networks:
+  bookingroom-network:
+    driver: bridge
