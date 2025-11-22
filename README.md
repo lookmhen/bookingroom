@@ -7,6 +7,8 @@ A modern, feature-rich meeting room booking application built with Next.js , int
 ![Microsoft Graph](https://img.shields.io/badge/Microsoft-Graph%20API-0078D4?style=flat-square&logo=microsoft)
 
 <img width="1329" height="874" alt="image" src="https://github.com/user-attachments/assets/bd781db5-b4fc-4123-bb31-330e513507f3" />
+<img width="474" height="667" alt="image" src="https://github.com/user-attachments/assets/a8a7314f-e9f5-47a0-91bc-69b5c044d556" />
+
 
 
 ## ✨ Features
